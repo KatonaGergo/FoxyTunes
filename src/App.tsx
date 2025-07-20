@@ -93,6 +93,7 @@ function App() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1.0 }}
+              onClick={() => window.open('https://drive.google.com/uc?export=download&id=1C-7sNDfh6jA_KIE-v8ZRch6pErisCTSl', '_blank')}
             >
               <span className="download-icon" /> Download for Windows
             </motion.button>
