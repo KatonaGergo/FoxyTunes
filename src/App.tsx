@@ -119,7 +119,8 @@ function App() {
           onMouseLeave={() => handleCardMouseLeave(setMsgCardRotation)}
         >
           <h2>A Message For You</h2>
-          <p>Behind this button is a hidden garden, <br /> where time slows, music flows, <br /> and a birthday wish softly blooms. <br /> Tap to open it, its all for you. 🎂🌸</p>
+          <p>Behind this link is a hidden gift, <br /> where time slows, music flows, <br /> and a birthday wish softly blooms. <br /> Tap to open it, its all for you. 🎂🌸</p>
+          <a href="https://birthday-q74i.onrender.com/">Click me!</a>
         </motion.div>
       </section>
       {/* About the app Section */}

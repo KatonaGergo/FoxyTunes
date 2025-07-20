@@ -245,6 +245,30 @@ body, #root, .main-bg {
   margin: 0;
 }
 
+.section a {
+  display: inline-block;
+  background: linear-gradient(90deg, #a259ff 0%, #4f46e5 100%);
+  color: #fff;
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2.2rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 16px 0 #a259ff33;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.section a:hover {
+  background: linear-gradient(90deg, #4f46e5 0%, #a259ff 100%);
+  box-shadow: 0 4px 24px 0 #a259ff55;
+  transform: translateY(-2px);
+  border: 2px solid #fff;
+}
+
 .download-btn.highlight {
   box-shadow: 0 0 0 4px #a259ff88, 0 2px 16px 0 #a259ff33;
   border-color: #a259ff;
