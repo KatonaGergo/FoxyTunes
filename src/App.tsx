@@ -95,7 +95,7 @@ function App() {
               transition={{ duration: 1, delay: 1.0 }}
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = 'https://drive.google.com/uc?export=download&id=1C-7sNDfh6jA_KIE-v8ZRch6pErisCTSl';
+                link.href = 'https://drive.google.com/uc?export=download&id=1aSY7Zzv-rYIQY83KEg7UsxAzWFwr3jpf';
                 link.target = '_blank';
                 link.download = 'FoxyTunes-Setup.exe';
                 document.body.appendChild(link);
