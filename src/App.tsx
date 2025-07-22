@@ -126,6 +126,10 @@ function App() {
             onClick={() => {
                 const link = document.createElement("a");
                 link.href = "https://foxytunesapp.onrender.com"
+                link.target = "_blank"
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
               }}
             >
               <span /> Visit the site
