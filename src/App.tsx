@@ -4,7 +4,6 @@ import Spline from "@splinetool/react-spline";
 import { motion } from "framer-motion";
 import logo from "./assets/images/logo_for_FoxyTunes.png";
 
-
 function App() {
   const heroRef = useRef<HTMLDivElement>(null);
   const messageRef = useRef<HTMLDivElement>(null);
@@ -117,16 +116,15 @@ function App() {
               }}
             >
               <span className="download-icon" /> Download for Windows
+              <a
+                className="visit-site-btn"
+                href="https://foxytunesapp.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit the site
+              </a>
             </motion.button>
-            <a
-              className="visit-site-btn"
-              href="https://foxytunesapp.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit the site
-              
-            </a>
           </motion.div>
         </motion.div>
       </section>
