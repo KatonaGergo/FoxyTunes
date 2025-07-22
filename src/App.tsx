@@ -128,6 +128,7 @@ function App() {
                 link.href = "https://foxytunesapp.onrender.com"
               }}
             >
+              <span /> Visit the site
 
             </motion.button>
           </motion.div>
