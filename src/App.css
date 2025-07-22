@@ -203,13 +203,11 @@ body, #root, .main-bg {
   font-weight: 700;
   font-size: 1.1rem;
   border-radius: 2rem;
-  padding: 0.7rem 2.2rem;
+  padding: 0.7rem 2.2rem 0.7rem 2.7rem;
+  position: relative;
   cursor: pointer;
-  text-decoration: none;
   transition: background 0.2s, color 0.2s, border 0.2s;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
 }
 
 .visit-site-btn:hover {
