@@ -130,15 +130,6 @@ function App() {
             >
 
             </motion.button>
-            <a
-              className="visit-site-btn"
-              href="https://foxytunesapp.onrender.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit the site
-              
-            </a>
           </motion.div>
         </motion.div>
       </section>
